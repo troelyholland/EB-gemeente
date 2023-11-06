@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+<meta charset="utf-8">
+<title>main.css</title>
+<meta name="description" content="main.css">
+<link rel="stylesheet" type="text/css" href="style/index.html"/>
+
+<nav>
+<a href="css-code.html">Code</a>
+<nav>
+
+<style type="text/css">
+body{
+background-color:  darkslategrey; color: wheat; text-align: center; }
+a:active{ background-color: olive; color: darkslategrey; padding: 5px; padding: 5px;}
+
+img{ padding: 50px;}
+
+header { background-color: wheat; color: darkslategrey; font-family: Verdana, sans-serif;
+  height: 200px; width:100%; text-align: center; padding: 5px; }
+
+footer { background-color: wheat ; color: darkslategrey; font-family: Verdana, sans-serif;
+   height: 100px; width:100%; text-align: center; padding: 5px; }
+<hr>
+
+
+</style>
+
+
+</head>
+
+<body>
+<h2 style="color: navy">Ik maak gebruik van css</h2>
+
+
+
+<table>
+
+    <tr>
+    <td id="een" style="width:100px;" style="height: 100px;">regen</td>
+    <td><img src="regenplas.jpg" alt="plas met druppels" style="width: 100px;" style=height: 100px;></td>
+    <td id="vijf" style="width:100px;" style="height: 100px;">water</td>
+    <td><img src="golven.jpg" alt="golven vd zee" style="width: 100px;" style="height: 100px;"></td>
+
+  </tr>
+
+  <tr>
+    <td id="twee" style="width:100px;" style="height: 100px;">zware bewolking</td>
+    <td><img src="tornado.jpg" alt="slurf wind" style="width: 100px;" style="height: 100px;"></td>
+    <td id="zes" style="width:100px;" style="height: 100px;">wind</td>
+    <td><img src="weerkaart.jpg" alt="kaart-radar" style="width: 100px" style="height: 100px;"></td>
+</tr>
+
+<tr>
+  <td id="drie" style="width:100px;" style="height: 100px;">sneeuw</td>
+  <td><img src="sneeuw.jpg" alt="bos met sneeuw en pad" style="width: 100px" style="height: 100px;"></td>
+  <td id="zeven" style="width:100px;" style="height: 100px;">aarde</td>
+  <td><img src="ijspegels-bos.jpg" alt="lange ijspegel in het bos" style="width: 100px;" style="height: 100px;"></td>
+</tr>
+
+  <tr>
+    <td id="vier" style="width:100px;" style="height: 100px;">onweer</td>
+    <td><img src="onweer.jpg" alt="bliksemlicht" style="width: 100px;" style="height: 100px;"></td>
+    <td id="acht" style="width:100px;" style="height: 100px;">zon</td>
+    <td><img src="wolken-zon.jpg" alt="wolken met schittering zon" style="width: 100px;" style="height: 100px;"></td>
+</tr>
+
+</table>
+<footer></footer>
+
+</body>
+</html>
